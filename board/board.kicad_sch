@@ -1,0 +1,224 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "afefa398-9f39-4b22-97f8-dae9b102df0d")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 138.43 82.55)
+		(size 50.8 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "04c090b1-601c-4801-ba2d-bdadcdd34cff")
+		(property "Sheetname" "GLUE"
+			(at 138.43 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "glue.kicad_sch"
+			(at 138.43 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/afefa398-9f39-4b22-97f8-dae9b102df0d"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 129.54)
+		(size 46.99 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3a4dea8d-1857-4b43-8092-baf1d8c2c547")
+		(property "Sheetname" "ROM"
+			(at 57.15 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rom.kicad_sch"
+			(at 57.15 169.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/afefa398-9f39-4b22-97f8-dae9b102df0d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 36.83)
+		(size 43.18 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7a73031a-1268-4f74-b6da-20608cb50de6")
+		(property "Sheetname" "POWER_CLOCK"
+			(at 40.64 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power-clock.kicad_sch"
+			(at 40.64 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/afefa398-9f39-4b22-97f8-dae9b102df0d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 35.56)
+		(size 40.64 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c302b4cc-a95e-44ac-a1e9-5663bcf0d2b3")
+		(property "Sheetname" "RAM"
+			(at 138.43 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ram.kicad_sch"
+			(at 138.43 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/afefa398-9f39-4b22-97f8-dae9b102df0d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 91.44)
+		(size 48.26 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e2759770-a9ef-4fa2-921d-b35f031ff7ee")
+		(property "Sheetname" "CPU"
+			(at 53.34 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu.kicad_sch"
+			(at 53.34 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/afefa398-9f39-4b22-97f8-dae9b102df0d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
