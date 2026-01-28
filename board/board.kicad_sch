@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at 142.24 125.73)
+		(size 49.53 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "189c4050-bf27-4d93-977d-e73def496750")
+		(property "Sheetname" "COMPOSITE"
+			(at 142.24 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "composite.kicad_sch"
+			(at 142.24 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/afefa398-9f39-4b22-97f8-dae9b102df0d"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 57.15 129.54)
 		(size 46.99 39.37)
 		(exclude_from_sim no)
@@ -132,6 +174,90 @@
 		)
 	)
 	(sheet
+		(at 207.01 58.42)
+		(size 40.64 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8366f086-fe3c-4854-801e-801c37de6558")
+		(property "Sheetname" "DUART"
+			(at 207.01 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io.kicad_sch"
+			(at 207.01 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/afefa398-9f39-4b22-97f8-dae9b102df0d"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 62.23)
+		(size 45.72 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a6ee04b7-7d16-47ea-9db5-ea25e69d73a5")
+		(property "Sheetname" "EXPANSION_BUS"
+			(at 33.02 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "expansion.kicad_sch"
+			(at 33.02 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/afefa398-9f39-4b22-97f8-dae9b102df0d"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 138.43 35.56)
 		(size 40.64 19.05)
 		(exclude_from_sim no)
@@ -211,6 +337,48 @@
 			(project "board"
 				(path "/afefa398-9f39-4b22-97f8-dae9b102df0d"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.82 91.44)
+		(size 39.37 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed1ce839-173e-4775-a1bf-0525f06c4186")
+		(property "Sheetname" "DEBUG_LED"
+			(at 210.82 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "debug-led.kicad_sch"
+			(at 210.82 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/afefa398-9f39-4b22-97f8-dae9b102df0d"
+					(page "9")
 				)
 			)
 		)

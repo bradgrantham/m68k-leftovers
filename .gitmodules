@@ -1,0 +1,6 @@
+[submodule "emulator/Moira"]
+	path = emulator/Moira
+	url = https://github.com/dirkwhoffmann/Moira.git
+[submodule "emulator/external/Moira"]
+	path = emulator/external/Moira
+	url = https://github.com/dirkwhoffmann/Moira.git

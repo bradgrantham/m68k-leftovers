@@ -432,6 +432,22 @@
     [
       "04c090b1-601c-4801-ba2d-bdadcdd34cff",
       "GLUE"
+    ],
+    [
+      "8366f086-fe3c-4854-801e-801c37de6558",
+      "DUART"
+    ],
+    [
+      "189c4050-bf27-4d93-977d-e73def496750",
+      "COMPOSITE"
+    ],
+    [
+      "ed1ce839-173e-4775-a1bf-0525f06c4186",
+      "DEBUG_LED"
+    ],
+    [
+      "a6ee04b7-7d16-47ea-9db5-ea25e69d73a5",
+      "EXPANSION_BUS"
     ]
   ],
   "text_variables": {}
