@@ -189,7 +189,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "8366f086-fe3c-4854-801e-801c37de6558")
-		(property "Sheetname" "DUART"
+		(property "Sheetname" "IO"
 			(at 207.01 57.7084 0)
 			(effects
 				(font
