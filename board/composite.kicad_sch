@@ -3273,6 +3273,10 @@
 		(uuid "9be3fc50-f7da-4744-afa2-75690061d33a")
 	)
 	(no_connect
+		(at 50.8 124.46)
+		(uuid "02146182-1e69-4e6a-92fb-48655cd6f1ef")
+	)
+	(no_connect
 		(at 50.8 127)
 		(uuid "254f8e2d-80d8-4c44-a5b9-a046801d7b3f")
 	)
@@ -4420,7 +4424,7 @@
 	)
 	(global_label "D13"
 		(shape bidirectional)
-		(at 50.8 116.84 180)
+		(at 50.8 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4430,7 +4434,7 @@
 		)
 		(uuid "01d52a50-a0bf-4826-ba4a-7a0041ea3dc4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.224 116.84 0)
+			(at 44.224 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4475,28 +4479,6 @@
 		(uuid "027448e3-1965-4e02-98d5-f2a6721684cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 44.3072 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "D9"
-		(shape bidirectional)
-		(at 50.8 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0844f05e-540f-46f5-acba-a7b4a83305e4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.224 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,7 +4556,7 @@
 	)
 	(global_label "D14"
 		(shape bidirectional)
-		(at 50.8 121.92 180)
+		(at 50.8 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4584,7 +4566,7 @@
 		)
 		(uuid "17f0b911-c43e-4454-b4ca-f62ce2ec95c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.224 121.92 0)
+			(at 44.224 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4904,7 +4886,7 @@
 	)
 	(global_label "D15"
 		(shape bidirectional)
-		(at 50.8 124.46 180)
+		(at 50.8 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4914,7 +4896,7 @@
 		)
 		(uuid "58b5f779-756a-4065-88d2-11d97b3decbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.224 124.46 0)
+			(at 44.224 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5630,7 +5612,7 @@
 	)
 	(global_label "D11"
 		(shape bidirectional)
-		(at 50.8 111.76 180)
+		(at 50.8 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5640,7 +5622,7 @@
 		)
 		(uuid "b557eade-e47b-4ab1-b1e3-f35b1cc517c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.224 111.76 0)
+			(at 44.224 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +5766,7 @@
 	)
 	(global_label "D10"
 		(shape bidirectional)
-		(at 50.8 109.22 180)
+		(at 50.8 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5794,7 +5776,7 @@
 		)
 		(uuid "bd110905-a29d-49fc-94fa-28caea24913d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.224 109.22 0)
+			(at 44.224 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,7 +6052,7 @@
 	)
 	(global_label "D9"
 		(shape bidirectional)
-		(at 50.8 106.68 180)
+		(at 50.8 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6080,7 +6062,7 @@
 		)
 		(uuid "e48cf58e-8c42-463e-83f7-33950fcfc310")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.224 106.68 0)
+			(at 44.224 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6202,7 +6184,7 @@
 	)
 	(global_label "D12"
 		(shape bidirectional)
-		(at 50.8 114.3 180)
+		(at 50.8 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6212,7 +6194,7 @@
 		)
 		(uuid "ef8631f9-5d3f-42e5-b878-0c1fcb6134e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.224 114.3 0)
+			(at 44.224 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6426,7 +6408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 195.58 63.5 0)
 			(effects
 				(font
@@ -6613,7 +6595,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 314.96 101.9048 0)
 			(effects
 				(font
@@ -6746,7 +6728,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 295.91 113.538 90)
 			(effects
 				(font
@@ -7080,7 +7062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 67.0052 193.04 0)
 			(effects
 				(font
@@ -7213,7 +7195,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 327.66 104.648 90)
 			(effects
 				(font
@@ -7415,7 +7397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 155.9052 88.9 0)
 			(effects
 				(font
@@ -7617,7 +7599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 231.14 127 0)
 			(effects
 				(font
@@ -7729,7 +7711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 231.14 63.5 0)
 			(effects
 				(font
@@ -8105,7 +8087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "board:CUI_RCJ-044"
 			(at 345.44 102.87 0)
 			(effects
 				(font
@@ -8241,7 +8223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 197.8152 172.72 0)
 			(effects
 				(font
@@ -8898,7 +8880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 195.58 127 0)
 			(effects
 				(font
@@ -9019,7 +9001,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 295.91 98.298 90)
 			(effects
 				(font
@@ -9155,7 +9137,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 155.9052 148.59 0)
 			(effects
 				(font
@@ -9225,7 +9207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 22.352 29.21 90)
 			(effects
 				(font
@@ -9559,7 +9541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 178.7652 172.72 0)
 			(effects
 				(font

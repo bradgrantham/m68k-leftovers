@@ -1457,12 +1457,6 @@
 		)
 	)
 	(junction
-		(at 173.99 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5bb64e94-17c7-46af-b13c-8aaa985c9638")
-	)
-	(junction
 		(at 107.95 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1658,16 +1652,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 45.72) (xy 173.99 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb89c3cd-5848-4536-8f2b-22827452b1db")
-	)
-	(wire
-		(pts
 			(xy 160.02 55.88) (xy 173.99 55.88)
 		)
 		(stroke
@@ -1706,29 +1690,7 @@
 		)
 		(uuid "eb187315-72aa-45c7-9706-1e225b241efc")
 	)
-	(global_label "HALT"
-		(shape output)
-		(at 182.88 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "99192c5d-4fd9-471b-886e-6003640c1e83")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.28 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RESET"
+	(global_label "~{RESET}"
 		(shape output)
 		(at 182.88 40.64 0)
 		(fields_autoplaced yes)
@@ -1866,7 +1828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 134.112 50.8 90)
 			(effects
 				(font
@@ -1936,7 +1898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 160.9852 50.8 0)
 			(effects
 				(font
@@ -2139,7 +2101,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-106x"
 			(at 168.91 50.8 0)
 			(effects
 				(font
@@ -2157,7 +2119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "Push button switch, generic, two pins - https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3F-1060/1811725"
 			(at 173.99 50.8 0)
 			(effects
 				(font
@@ -2341,7 +2303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 158.242 39.37 90)
 			(effects
 				(font
@@ -2610,7 +2572,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 89.8652 62.23 0)
 			(effects
 				(font
@@ -3089,7 +3051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 41.6052 60.96 0)
 			(effects
 				(font
@@ -3224,7 +3186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 124.46 97.79 0)
 			(effects
 				(font
@@ -3315,7 +3277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 83.312 31.75 90)
 			(effects
 				(font

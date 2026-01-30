@@ -989,7 +989,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Audio:AudioJack2"
+		(symbol "Connector_Audio:AudioJack3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1001,7 +1001,7 @@
 					)
 				)
 			)
-			(property "Value" "AudioJack2"
+			(property "Value" "AudioJack3"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -1027,7 +1027,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1036,7 +1036,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "audio jack receptacle mono phone headphone TS connector"
+			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1054,10 +1054,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "AudioJack2_0_1"
+			(symbol "AudioJack3_0_1"
 				(rectangle
-					(start -3.81 0)
-					(end -2.54 -2.54)
+					(start -5.08 -5.08)
+					(end -6.35 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1066,9 +1066,33 @@
 						(type outline)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.905 -2.54) (xy -1.27 -3.175) (xy -0.635 -2.54) (xy -0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0.635 -3.175) (xy 1.27 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
-					(start -2.54 3.81)
-					(end 2.54 -2.54)
+					(start 2.54 3.81)
+					(end -5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1079,19 +1103,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
+						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -3.175 -3.175) (xy -3.81 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -1102,7 +1114,7 @@
 					)
 				)
 			)
-			(symbol "AudioJack2_1_1"
+			(symbol "AudioJack3_1_1"
 				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
@@ -1123,6 +1135,24 @@
 				)
 				(pin passive line
 					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -2620,10 +2650,10 @@
 		)
 	)
 	(junction
-		(at 361.95 161.29)
+		(at 361.95 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "098342b5-b2c5-4c78-91c6-3fd2d566c2bd")
+		(uuid "1c95465a-fca5-4bd1-83a1-cc3e5e2e8db6")
 	)
 	(junction
 		(at 349.25 158.75)
@@ -2662,12 +2692,6 @@
 		(uuid "8fac4962-407f-4d00-81a9-46ba07be7bab")
 	)
 	(junction
-		(at 361.95 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a14460be-5110-4420-8e51-50ed08335f86")
-	)
-	(junction
 		(at 261.62 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2678,12 +2702,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3e59818-0f3c-4bc8-abd3-da6a19ba13e1")
-	)
-	(junction
-		(at 349.25 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9d634fc-01d2-4ade-b7dd-22d32a6e51f9")
 	)
 	(junction
 		(at 261.62 229.87)
@@ -2763,6 +2781,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 158.75) (xy 361.95 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b80f94-f91b-4063-a222-d44283657c1b")
+	)
+	(wire
+		(pts
 			(xy 165.1 144.78) (xy 167.64 144.78)
 		)
 		(stroke
@@ -2823,7 +2851,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 156.21) (xy 361.95 140.97)
+			(xy 370.84 154.94) (xy 370.84 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2863,6 +2891,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 157.48) (xy 375.92 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cdb374e-862a-49dc-8796-26f10ac4b784")
+	)
+	(wire
+		(pts
 			(xy 260.35 184.15) (xy 261.62 184.15)
 		)
 		(stroke
@@ -2870,16 +2908,6 @@
 			(type default)
 		)
 		(uuid "2e3202b5-ce93-49cd-9a09-ad9001897b01")
-	)
-	(wire
-		(pts
-			(xy 361.95 158.75) (xy 367.03 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "312588bf-cf0c-4cae-b3e0-226ef28779c6")
 	)
 	(wire
 		(pts
@@ -2903,7 +2931,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 140.97) (xy 381 140.97)
+			(xy 370.84 140.97) (xy 394.97 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2913,7 +2941,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 140.97) (xy 381 146.05)
+			(xy 394.97 140.97) (xy 394.97 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3003,13 +3031,13 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 160.02) (xy 349.25 162.56)
+			(xy 363.22 160.02) (xy 364.49 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "496f5255-87e7-4cec-aeca-d98753754961")
+		(uuid "4e1bde2a-e997-4a1e-83b2-04514601548e")
 	)
 	(wire
 		(pts
@@ -3103,6 +3131,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 158.75) (xy 363.22 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "724cf850-ad9a-4de8-9f7b-babf599f7340")
+	)
+	(wire
+		(pts
 			(xy 261.62 161.29) (xy 261.62 162.56)
 		)
 		(stroke
@@ -3120,16 +3158,6 @@
 			(type default)
 		)
 		(uuid "742157ae-bd43-4398-b9f0-2e7635918fd0")
-	)
-	(wire
-		(pts
-			(xy 361.95 161.29) (xy 361.95 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81fc6aa6-bbb9-4b3b-9319-9f83f64d263d")
 	)
 	(wire
 		(pts
@@ -3153,6 +3181,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 158.75) (xy 363.22 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84bff3c7-827c-4e81-b0cf-d415450d6354")
+	)
+	(wire
+		(pts
 			(xy 330.2 199.39) (xy 306.07 199.39)
 		)
 		(stroke
@@ -3160,6 +3198,16 @@
 			(type default)
 		)
 		(uuid "898c093e-e930-4727-9f2d-58bc7858c07e")
+	)
+	(wire
+		(pts
+			(xy 361.95 157.48) (xy 364.49 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b32783-8b0e-4de0-9c4a-0a3a56174b2f")
 	)
 	(wire
 		(pts
@@ -3373,6 +3421,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 160.02) (xy 375.92 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c787a1b6-dbcd-4369-9e9b-34295cab87bd")
+	)
+	(wire
+		(pts
 			(xy 271.78 40.64) (xy 265.43 40.64)
 		)
 		(stroke
@@ -3543,7 +3601,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 156.21) (xy 361.95 156.21)
+			(xy 375.92 154.94) (xy 370.84 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4445,7 +4503,7 @@
 			)
 		)
 	)
-	(global_label "KBD_CLK"
+	(global_label "KBD_DATA"
 		(shape bidirectional)
 		(at 167.64 124.46 180)
 		(fields_autoplaced yes)
@@ -4457,7 +4515,7 @@
 		)
 		(uuid "d2675b8e-8266-4c70-a6a8-1f9d0ff9076d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.1978 124.46 0)
+			(at 154.3511 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4624,7 +4682,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 256.54 151.638 90)
 			(effects
 				(font
@@ -4694,7 +4752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 167.3352 172.72 0)
 			(effects
 				(font
@@ -4762,7 +4820,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "board:Mini_din6"
 			(at 326.39 100.33 0)
 			(effects
 				(font
@@ -4780,7 +4838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "6-pin Mini-DIN connector"
+		(property "Description" "KMDGX-6S-BS"
 			(at 326.39 100.33 0)
 			(effects
 				(font
@@ -4908,7 +4966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 313.3852 240.03 0)
 			(effects
 				(font
@@ -5042,7 +5100,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 359.41 157.7848 0)
 			(effects
 				(font
@@ -5174,7 +5232,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 256.54 163.068 90)
 			(effects
 				(font
@@ -5218,7 +5276,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 381 146.05 0)
+		(at 394.97 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5227,7 +5285,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fc80574-5eb5-4985-ba93-3b09ce57ddd0")
 		(property "Reference" "#PWR0141"
-			(at 381 152.4 0)
+			(at 394.97 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5236,7 +5294,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 381 151.13 0)
+			(at 394.97 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5244,7 +5302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 381 146.05 0)
+			(at 394.97 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,7 +5311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 381 146.05 0)
+			(at 394.97 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5262,7 +5320,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 381 146.05 0)
+			(at 394.97 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,7 +5431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 256.54 208.788 90)
 			(effects
 				(font
@@ -5443,7 +5501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 321.31 217.17 0)
 			(effects
 				(font
@@ -5528,7 +5586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 256.54 197.358 90)
 			(effects
 				(font
@@ -5730,7 +5788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 131.7752 137.16 0)
 			(effects
 				(font
@@ -5797,7 +5855,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 256.54 185.928 90)
 			(effects
 				(font
@@ -5864,7 +5922,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 256.54 174.498 90)
 			(effects
 				(font
@@ -6115,7 +6173,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 263.398 166.37 90)
 			(effects
 				(font
@@ -6249,7 +6307,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 318.77 190.5 0)
 			(effects
 				(font
@@ -6376,6 +6434,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 381 157.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "594c5029-5dd7-495b-9ece-34804c3aacd9")
+		(property "Reference" "J5"
+			(at 382.905 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3"
+			(at 382.905 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3523N_Horizontal"
+			(at 381 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 381 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS) - https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SJ1-3523N/738689"
+			(at 381 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "7f4c2b3d-24ee-4bc0-a30e-d0bbacf747be")
+		)
+		(pin "R"
+			(uuid "85ed8be9-77f2-4439-aaec-7c36078e49ec")
+		)
+		(pin "S"
+			(uuid "4b11aa1a-2ab7-47f3-b9ff-00931a2de1b5")
+		)
+		(instances
+			(project ""
+				(path "/afefa398-9f39-4b22-97f8-dae9b102df0d/8366f086-fe3c-4854-801e-801c37de6558"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 354.33 73.66 0)
 		(unit 1)
@@ -6466,7 +6595,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 256.54 220.218 90)
 			(effects
 				(font
@@ -6665,7 +6794,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 263.398 223.52 90)
 			(effects
 				(font
@@ -6708,6 +6837,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 368.3 160.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83fd2e75-9b36-430b-bbd8-a4d2d6be73ad")
+		(property "Reference" "R58"
+			(at 372.872 164.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 371.602 162.306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 368.3 158.242 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 368.3 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 368.3 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bcf4f24-c48e-40a9-9f7f-a998ad0c7ad6")
+		)
+		(pin "2"
+			(uuid "c1e8ce6f-312b-4fb3-91ca-7b880ff934f9")
+		)
+		(instances
+			(project "board"
+				(path "/afefa398-9f39-4b22-97f8-dae9b102df0d/8366f086-fe3c-4854-801e-801c37de6558"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LM358")
 		(at 318.77 158.75 0)
 		(unit 1)
@@ -6733,7 +6929,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 318.77 158.75 0)
 			(effects
 				(font
@@ -6818,7 +7014,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 263.398 234.95 90)
 			(effects
 				(font
@@ -6885,7 +7081,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 269.24 148.082 90)
 			(effects
 				(font
@@ -7021,7 +7217,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Resonator-2Pin_W10.0mm_H5.0mm"
 			(at 143.51 137.16 0)
 			(effects
 				(font
@@ -7039,7 +7235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal"
+		(property "Description" "Two pin crystal - https://www.digikey.com/en/products/detail/ecs-inc/ECS-110-5-20-4X-EN/15777850"
 			(at 143.51 137.16 0)
 			(effects
 				(font
@@ -7221,7 +7417,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 340.36 160.528 90)
 			(effects
 				(font
@@ -7289,7 +7485,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "board:Mini_din6"
 			(at 326.39 73.66 0)
 			(effects
 				(font
@@ -7307,7 +7503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "6-pin Mini-DIN connector"
+		(property "Description" "KMDGX-6S-BS"
 			(at 326.39 73.66 0)
 			(effects
 				(font
@@ -7371,7 +7567,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 363.728 165.1 90)
 			(effects
 				(font
@@ -7438,7 +7634,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 263.398 177.8 90)
 			(effects
 				(font
@@ -7499,7 +7695,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5pF"
+		(property "Value" "15pF"
 			(at 134.62 142.2399 0)
 			(effects
 				(font
@@ -7508,7 +7704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 131.7752 144.78 0)
 			(effects
 				(font
@@ -7551,74 +7747,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2")
-		(at 372.11 158.75 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d97371c7-58f6-4257-b34f-a1fb6c8c8154")
-		(property "Reference" "J5"
-			(at 372.745 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AudioJack2"
-			(at 372.745 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 372.11 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 372.11 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 372.11 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "T"
-			(uuid "cbe1ace3-8d81-44b4-aa3d-4c4c23b82510")
-		)
-		(pin "S"
-			(uuid "a3cd529d-a9f8-48c7-9335-25625df64356")
-		)
-		(instances
-			(project ""
-				(path "/afefa398-9f39-4b22-97f8-dae9b102df0d/8366f086-fe3c-4854-801e-801c37de6558"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 261.62 212.09 180)
 		(unit 1)
@@ -7643,7 +7771,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 263.398 212.09 90)
 			(effects
 				(font
@@ -7680,6 +7808,74 @@
 			(project "board"
 				(path "/afefa398-9f39-4b22-97f8-dae9b102df0d/8366f086-fe3c-4854-801e-801c37de6558"
 					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 368.3 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dba8fc7d-24ac-4f64-bbf4-a2522d4be1e2")
+		(property "Reference" "R57"
+			(at 368.3 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 368.3 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 368.3 155.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 368.3 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 368.3 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "295b4f6b-3684-4265-a256-d4d3082e10f2")
+		)
+		(pin "2"
+			(uuid "9018d6a1-7b98-4bd0-b6ed-6512bfa51355")
+		)
+		(instances
+			(project "board"
+				(path "/afefa398-9f39-4b22-97f8-dae9b102df0d/8366f086-fe3c-4854-801e-801c37de6558"
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -7779,7 +7975,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 276.86 40.64 0)
 			(effects
 				(font
@@ -7993,7 +8189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 350.2152 167.64 0)
 			(effects
 				(font
@@ -8060,7 +8256,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 263.398 189.23 90)
 			(effects
 				(font
@@ -8127,7 +8323,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 256.54 231.648 90)
 			(effects
 				(font
@@ -8194,7 +8390,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 263.398 200.66 90)
 			(effects
 				(font
@@ -8327,7 +8523,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 263.398 154.94 90)
 			(effects
 				(font

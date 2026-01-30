@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ATF1504AS_PLCC44")(type "KiCad")(uri "${KIPRJMOD}/ATF1504AS_PLCC44.kicad_sym")(options "")(descr ""))
+)
