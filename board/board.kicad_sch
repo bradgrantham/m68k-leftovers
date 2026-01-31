@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 138.43 82.55)
+		(at 127 72.39)
 		(size 50.8 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "04c090b1-601c-4801-ba2d-bdadcdd34cff")
 		(property "Sheetname" "GLUE"
-			(at 138.43 81.8384 0)
+			(at 127 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "glue.kicad_sch"
-			(at 138.43 107.2646 0)
+			(at 127 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +48,7 @@
 		)
 	)
 	(sheet
-		(at 142.24 125.73)
+		(at 130.81 115.57)
 		(size 49.53 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +64,7 @@
 		)
 		(uuid "189c4050-bf27-4d93-977d-e73def496750")
 		(property "Sheetname" "COMPOSITE"
-			(at 142.24 125.0184 0)
+			(at 130.81 114.8584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "composite.kicad_sch"
-			(at 142.24 152.9846 0)
+			(at 130.81 142.8246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,7 +90,7 @@
 		)
 	)
 	(sheet
-		(at 57.15 129.54)
+		(at 45.72 119.38)
 		(size 46.99 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,7 +106,7 @@
 		)
 		(uuid "3a4dea8d-1857-4b43-8092-baf1d8c2c547")
 		(property "Sheetname" "ROM"
-			(at 57.15 128.8284 0)
+			(at 45.72 118.6684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +115,7 @@
 			)
 		)
 		(property "Sheetfile" "rom.kicad_sch"
-			(at 57.15 169.4946 0)
+			(at 45.72 159.3346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,7 +132,7 @@
 		)
 	)
 	(sheet
-		(at 40.64 36.83)
+		(at 29.21 26.67)
 		(size 43.18 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -148,7 +148,7 @@
 		)
 		(uuid "7a73031a-1268-4f74-b6da-20608cb50de6")
 		(property "Sheetname" "POWER_CLOCK"
-			(at 40.64 36.1184 0)
+			(at 29.21 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +157,7 @@
 			)
 		)
 		(property "Sheetfile" "power-clock.kicad_sch"
-			(at 40.64 57.7346 0)
+			(at 29.21 47.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,7 +174,7 @@
 		)
 	)
 	(sheet
-		(at 207.01 58.42)
+		(at 195.58 48.26)
 		(size 40.64 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -190,7 +190,7 @@
 		)
 		(uuid "8366f086-fe3c-4854-801e-801c37de6558")
 		(property "Sheetname" "IO"
-			(at 207.01 57.7084 0)
+			(at 195.58 47.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -199,7 +199,7 @@
 			)
 		)
 		(property "Sheetfile" "io.kicad_sch"
-			(at 207.01 79.3246 0)
+			(at 195.58 69.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,7 +216,7 @@
 		)
 	)
 	(sheet
-		(at 33.02 62.23)
+		(at 21.59 52.07)
 		(size 45.72 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -232,7 +232,7 @@
 		)
 		(uuid "a6ee04b7-7d16-47ea-9db5-ea25e69d73a5")
 		(property "Sheetname" "EXPANSION_BUS"
-			(at 33.02 61.5184 0)
+			(at 21.59 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -241,7 +241,7 @@
 			)
 		)
 		(property "Sheetfile" "expansion.kicad_sch"
-			(at 33.02 85.6746 0)
+			(at 21.59 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -258,7 +258,7 @@
 		)
 	)
 	(sheet
-		(at 138.43 35.56)
+		(at 127 25.4)
 		(size 40.64 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -274,7 +274,7 @@
 		)
 		(uuid "c302b4cc-a95e-44ac-a1e9-5663bcf0d2b3")
 		(property "Sheetname" "RAM"
-			(at 138.43 34.8484 0)
+			(at 127 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -283,7 +283,7 @@
 			)
 		)
 		(property "Sheetfile" "ram.kicad_sch"
-			(at 138.43 55.1946 0)
+			(at 127 45.0346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -300,7 +300,7 @@
 		)
 	)
 	(sheet
-		(at 53.34 91.44)
+		(at 41.91 81.28)
 		(size 48.26 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -316,7 +316,7 @@
 		)
 		(uuid "e2759770-a9ef-4fa2-921d-b35f031ff7ee")
 		(property "Sheetname" "CPU"
-			(at 53.34 90.7284 0)
+			(at 41.91 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -325,7 +325,7 @@
 			)
 		)
 		(property "Sheetfile" "cpu.kicad_sch"
-			(at 53.34 112.3446 0)
+			(at 41.91 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -342,7 +342,7 @@
 		)
 	)
 	(sheet
-		(at 210.82 91.44)
+		(at 199.39 81.28)
 		(size 39.37 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -358,7 +358,7 @@
 		)
 		(uuid "ed1ce839-173e-4775-a1bf-0525f06c4186")
 		(property "Sheetname" "DEBUG_LED"
-			(at 210.82 90.7284 0)
+			(at 199.39 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -367,7 +367,7 @@
 			)
 		)
 		(property "Sheetfile" "debug-led.kicad_sch"
-			(at 210.82 116.1546 0)
+			(at 199.39 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -379,6 +379,48 @@
 			(project "board"
 				(path "/afefa398-9f39-4b22-97f8-dae9b102df0d"
 					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 116.84)
+		(size 43.18 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "faab232f-915d-47aa-af12-9e45316a088b")
+		(property "Sheetname" "MMU"
+			(at 204.47 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mmu.kicad_sch"
+			(at 204.47 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/afefa398-9f39-4b22-97f8-dae9b102df0d"
+					(page "11")
 				)
 			)
 		)
