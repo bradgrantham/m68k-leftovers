@@ -4146,6 +4146,12 @@
 		(uuid "0ae465ee-aea0-42d3-a0a6-10453cdb63ea")
 	)
 	(junction
+		(at 120.65 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13b0514c-d0f6-447f-a713-ff21da24ae38")
+	)
+	(junction
 		(at 196.85 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4180,12 +4186,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5408fe85-5425-4ac0-9dcd-27bca6dfe0eb")
-	)
-	(junction
-		(at 120.65 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "558313fc-55fc-45b6-ba06-877bf2974890")
 	)
 	(junction
 		(at 138.43 125.73)
@@ -5067,16 +5067,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 162.56) (xy 120.65 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d337ac0-83ff-486c-b754-efd506514c2c")
-	)
-	(wire
-		(pts
 			(xy 82.55 146.05) (xy 87.63 146.05)
 		)
 		(stroke
@@ -5234,6 +5224,16 @@
 			(type default)
 		)
 		(uuid "be9fe1c1-16b8-4d31-aefa-6767bef9770f")
+	)
+	(wire
+		(pts
+			(xy 120.65 162.56) (xy 120.65 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf5401e4-490a-4e87-ba4f-4de951611c8c")
 	)
 	(wire
 		(pts
@@ -5799,7 +5799,7 @@
 			)
 		)
 	)
-	(global_label "CPST_SELECT"
+	(global_label "~{CPST_SELECT}"
 		(shape output)
 		(at 87.63 115.57 0)
 		(fields_autoplaced yes)

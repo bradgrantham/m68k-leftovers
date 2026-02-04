@@ -3990,6 +3990,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/bourns-inc/4116R-R2R-103LF/2565166"
+			(at 82.55 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "15"
 			(uuid "3e9fb3a3-0187-4cbd-937a-0de0a7473d73")
 		)
@@ -4745,6 +4754,15 @@
 		)
 		(property "Description" "8 resistor network, parallel topology"
 			(at 199.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/bourns-inc/4116R-R2R-103LF/2565166"
+			(at 199.39 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
