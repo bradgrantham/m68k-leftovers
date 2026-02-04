@@ -3293,10 +3293,6 @@
 		(uuid "7f1a30d0-035b-4f17-926a-44e1d83a06ad")
 	)
 	(no_connect
-		(at 34.29 138.43)
-		(uuid "9bb021e4-0972-4efe-9781-bf15988827b1")
-	)
-	(no_connect
 		(at 34.29 118.11)
 		(uuid "e22d57c9-2b68-4dc2-b70e-b1197c71b478")
 	)
@@ -4684,28 +4680,6 @@
 			)
 		)
 	)
-	(global_label "AUDIO_LE"
-		(shape output)
-		(at 34.29 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2fe533d4-d014-41bd-8d6b-a2c1f714c501")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.5357 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CPST_TDI"
 		(shape input)
 		(at 83.82 153.67 0)
@@ -5181,6 +5155,28 @@
 		(uuid "7c631265-2565-4249-b391-7070250da54e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 23.443 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{CPST_SELECT}"
+		(shape input)
+		(at 34.29 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7cef726e-c974-451f-9569-d80cdf3f2b4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.8469 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6039,6 +6035,28 @@
 		(uuid "de3a7a19-735b-460e-8501-a79b5641f435")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 21.8705 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{CPST_DTACK}"
+		(shape output)
+		(at 34.29 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e27eb2c2-50c2-4b6b-8f0d-ed1001a5d254")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.7539 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7755,7 +7773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 181.61 119.38 0)
 			(effects
 				(font
@@ -7867,7 +7885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 181.61 55.88 0)
 			(effects
 				(font

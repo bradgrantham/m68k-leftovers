@@ -649,10 +649,6 @@
     [
       "a6ee04b7-7d16-47ea-9db5-ea25e69d73a5",
       "EXPANSION_BUS"
-    ],
-    [
-      "faab232f-915d-47aa-af12-9e45316a088b",
-      "MMU"
     ]
   ],
   "text_variables": {}

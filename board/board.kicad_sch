@@ -383,48 +383,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 204.47 116.84)
-		(size 43.18 24.13)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "faab232f-915d-47aa-af12-9e45316a088b")
-		(property "Sheetname" "MMU"
-			(at 204.47 116.1284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "mmu.kicad_sch"
-			(at 204.47 141.5546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "board"
-				(path "/afefa398-9f39-4b22-97f8-dae9b102df0d"
-					(page "11")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")
