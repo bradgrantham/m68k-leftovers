@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -117,9 +123,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.3,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -130,9 +136,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.15,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.6,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -180,7 +186,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +215,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -479,7 +492,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -491,23 +504,43 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       },
       {
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
+        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Power",
+        "name": "5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_diameter": 0.9,
+        "via_drill": 0.5,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -515,7 +548,764 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "ADC1_INP3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "ADC1_INP5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "ADC3_INP2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "ADC3_INP3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "ADC3_INP6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "ADC3_INP7"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "AUDIO_OUT_L"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "AUDIO_OUT_R"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "BOOT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CLOCK0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CLOCK1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CV0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CV1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CV2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CV3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CV4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CV5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CV6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CV7"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DAC1_OUT1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DAC1_OUT2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DEBUG"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "E1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "E2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "ESP_CH_EN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "ESP_GPIO0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "ESP_GPIO2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "ESP_RST"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "ESP_RX"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "ESP_TX"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "EXPGPIO0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "EXPGPIO1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "EXPPWM"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "FIRE1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "FIRE2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "I2C1_SCL"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "I2C1_SDA"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "I2S1_SDO"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "I2S_CK"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "I2S_SDI"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "I2S_WS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "JOYSELECT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "KBD_CLK"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "KBD_DATA"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "KEYSELECT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "MOUSE_CLK"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "MOUSE_DATA"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "N1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "N2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "NRST"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(C20-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(C21-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(C22-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(C29-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(C3-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(C30-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(C5-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(D1-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(D2-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(D4-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(D4-Pad4)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(D5-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(D6-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(F1-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J10-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J10-Pad6)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J11-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J11-Pad4)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J12-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J12-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J12-Pad5)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J12-Pad7)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J12-Pad8)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J12-Pad9)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J2-Pad6)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J2-Pad7)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J2-Pad8)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J3-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J9-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J9-Pad6)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(Q1-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R39-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U1-Pad146)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U1-Pad147)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U1-Pad45)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U1-Pad7)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U1-Pad87)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U1-Pad99)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U2-Pad36)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U2-Pad40)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RGBLED_PWM"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "S1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "S2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDIO_CD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDIO_CLK"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDIO_CMD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDIO_D0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDIO_D1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDIO_D2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDIO_D3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDIO_WP"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_A0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_A1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_A10"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_A11"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_A2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_A3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_A4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_A5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_A6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_A7"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_A8"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_A9"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_BA0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_BA1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_D0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_D1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_D10"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_D11"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_D12"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_D13"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_D14"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_D15"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_D2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_D3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_D4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_D5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_D6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_D7"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_D8"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_D9"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_NBL0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_NBL1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_SDCKE0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_SDCLK"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_SDNCAS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_SDNE0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_SDNRAS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SDRAM_SDNWE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SPI6_MISO"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SPI6_MOSI"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SPI6_NSS_SWCTL"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SPI6_SCK"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SWCLK"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SWDIO"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "TIM1_CH2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "TIM2_CH1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "TIM3_CH2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "TIM4_CH1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "TIM5_CH2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "USART1_RX"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "USART2_CTS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "USART2_RTS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "USART2_RX"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "USART2_TX"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "USART3_RX"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "USB_FS_D_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "USB_FS_D_P"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "USER1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "USER2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "USER3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VGA_B0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VGA_B1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VGA_B2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VGA_B3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VGA_B4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VGA_BLUE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VGA_G0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VGA_G1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VGA_G2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VGA_G3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VGA_G4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VGA_G5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VGA_GREEN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VGA_ID0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VGA_ID2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VGA_R0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VGA_R1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VGA_R2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VGA_R3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VGA_R4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VGA_RED"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "W1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "W2"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "BAT"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VDD"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VREFP"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
