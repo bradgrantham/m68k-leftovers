@@ -63,7 +63,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "189c4050-bf27-4d93-977d-e73def496750")
-		(property "Sheetname" "COMPOSITE"
+		(property "Sheetname" "ONBOARDVID"
 			(at 88.9 100.8884 0)
 			(effects
 				(font
