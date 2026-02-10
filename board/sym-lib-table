@@ -1,3 +1,5 @@
 (sym_lib_table
   (version 7)
+  (lib (name "CFcard")(type "KiCad")(uri "${KIPRJMOD}/cfcard.kicad_sym")(options "")(descr ""))
+  (lib (name "SAMTEC")(type "KiCad")(uri "${KIPRJMOD}/library/CFT-125-01-L-D-RA-01-SL.kicad_sym")(options "")(descr ""))
 )
