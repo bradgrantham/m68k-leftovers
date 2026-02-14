@@ -1780,7 +1780,7 @@
 			)
 		)
 	)
-	(global_label "SYSCLK"
+	(global_label "CPUCLK"
 		(shape output)
 		(at 101.6 53.34 0)
 		(fields_autoplaced yes)

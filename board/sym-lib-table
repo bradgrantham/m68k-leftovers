@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "CFcard")(type "KiCad")(uri "${KIPRJMOD}/cfcard.kicad_sym")(options "")(descr ""))
   (lib (name "SAMTEC")(type "KiCad")(uri "${KIPRJMOD}/library/CFT-125-01-L-D-RA-01-SL.kicad_sym")(options "")(descr ""))
+  (lib (name "SS_AUDIO")(type "KiCad")(uri "${KIPRJMOD}/library/SJ3-35063B.kicad_sym")(options "")(descr ""))
 )

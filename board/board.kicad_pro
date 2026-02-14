@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.55,
+          "height": 0.8,
+          "width": 0.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -1469,11 +1469,15 @@
     ],
     [
       "ed1ce839-173e-4775-a1bf-0525f06c4186",
-      "DEBUG_LED"
+      "AUDIO"
     ],
     [
       "a6ee04b7-7d16-47ea-9db5-ea25e69d73a5",
-      "EXPANSION_BUS"
+      "APP_ENGINE"
+    ],
+    [
+      "bdc81d7c-79d5-4e62-af29-5c413dc9363f",
+      "TESTPOINTS"
     ]
   ],
   "text_variables": {}

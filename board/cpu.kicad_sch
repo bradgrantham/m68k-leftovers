@@ -3333,7 +3333,7 @@
 			)
 		)
 	)
-	(global_label "~{FC1}"
+	(global_label "FC1"
 		(shape output)
 		(at 133.35 100.33 180)
 		(fields_autoplaced yes)
@@ -3399,7 +3399,7 @@
 			)
 		)
 	)
-	(global_label "SYSCLK"
+	(global_label "CPUCLK"
 		(shape input)
 		(at 133.35 36.83 180)
 		(fields_autoplaced yes)
@@ -3619,7 +3619,7 @@
 			)
 		)
 	)
-	(global_label "~{FC2}"
+	(global_label "FC2"
 		(shape output)
 		(at 133.35 102.87 180)
 		(fields_autoplaced yes)
@@ -3773,7 +3773,7 @@
 			)
 		)
 	)
-	(global_label "~{FC0}"
+	(global_label "FC0"
 		(shape output)
 		(at 133.35 97.79 180)
 		(fields_autoplaced yes)

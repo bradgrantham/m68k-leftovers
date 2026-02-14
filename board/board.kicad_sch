@@ -96,7 +96,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -115,7 +114,7 @@
 			)
 		)
 		(property "Sheetfile" "rom.kicad_sch"
-			(at 25.4 141.5546 0)
+			(at 25.654 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -231,7 +230,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a6ee04b7-7d16-47ea-9db5-ea25e69d73a5")
-		(property "Sheetname" "EXPANSION_BUS"
+		(property "Sheetname" "APP_ENGINE"
 			(at 152.4 100.8884 0)
 			(effects
 				(font
@@ -253,6 +252,48 @@
 			(project "board"
 				(path "/afefa398-9f39-4b22-97f8-dae9b102df0d"
 					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 138.43)
+		(size 40.64 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bdc81d7c-79d5-4e62-af29-5c413dc9363f")
+		(property "Sheetname" "TESTPOINTS"
+			(at 25.4 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "test-points.kicad_sch"
+			(at 25.4 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/afefa398-9f39-4b22-97f8-dae9b102df0d"
+					(page "11")
 				)
 			)
 		)
@@ -357,7 +398,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ed1ce839-173e-4775-a1bf-0525f06c4186")
-		(property "Sheetname" "DEBUG_LED"
+		(property "Sheetname" "AUDIO"
 			(at 152.4 62.7884 0)
 			(effects
 				(font
