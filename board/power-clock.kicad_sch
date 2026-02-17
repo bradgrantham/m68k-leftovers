@@ -1886,7 +1886,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "MountingHole"
 			(at 29.21 124.46 90)
 			(effects
 				(font
@@ -2830,7 +2830,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "MountingHole"
 			(at 29.21 134.62 90)
 			(effects
 				(font
@@ -2895,7 +2895,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "MountingHole"
 			(at 29.21 93.98 90)
 			(effects
 				(font
@@ -4015,7 +4015,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "MountingHole"
 			(at 29.21 114.3 90)
 			(effects
 				(font
@@ -4080,7 +4080,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "MountingHole"
 			(at 29.21 104.14 90)
 			(effects
 				(font

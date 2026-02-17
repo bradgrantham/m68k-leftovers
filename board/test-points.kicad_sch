@@ -1158,7 +1158,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b0c4117d-fa25-4bae-8653-543b788f9f14")
+			(uuid "b0c4117d-fa25-4bae-8653-543b788f9f15")
 		)
 		(instances
 			(project "board"

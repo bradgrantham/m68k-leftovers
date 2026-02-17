@@ -131,6 +131,48 @@
 		)
 	)
 	(sheet
+		(at 88.9 138.43)
+		(size 40.64 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4a375e65-a69e-4a1a-b605-646ac9dfc1ea")
+		(property "Sheetname" "COMPACT_FLASH"
+			(at 88.9 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "compact-flash.kicad_sch"
+			(at 88.9 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/afefa398-9f39-4b22-97f8-dae9b102df0d"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 25.4 25.4)
 		(size 40 20)
 		(exclude_from_sim no)
